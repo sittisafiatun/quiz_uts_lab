@@ -8,6 +8,7 @@ import android.widget.Button
 class StartActivity : AppCompatActivity() {
 
     lateinit var start:Button
+    lateinit var keluar:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,8 +20,16 @@ class StartActivity : AppCompatActivity() {
             var intent= Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
+//
+        keluar=findViewById(R.id.keluar)
+        keluar.setOnClickListener {
+            finish();
+            System.exit(0);
+        }
 
     }
+
+
 
     override fun onBackPressed() {
         super.onBackPressed()
