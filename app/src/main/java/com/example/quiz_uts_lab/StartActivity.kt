@@ -20,7 +20,7 @@ class StartActivity : AppCompatActivity() {
             var intent= Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
-//
+
         keluar=findViewById(R.id.keluar)
         keluar.setOnClickListener {
             finish();
