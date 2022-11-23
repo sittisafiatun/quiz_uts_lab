@@ -1,7 +1,6 @@
 package com.example.quiz_uts_lab
 
 import android.content.Intent
-import android.content.res.Resources
 import android.os.Bundle
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -56,7 +55,7 @@ class ResultActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        var intent= Intent(this,StartActivity::class.java)
+        var intent= Intent(this,MainActivity::class.java)
         startActivity(intent)
     }
 }
