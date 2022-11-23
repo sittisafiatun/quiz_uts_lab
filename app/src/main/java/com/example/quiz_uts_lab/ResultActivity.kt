@@ -12,7 +12,7 @@ class ResultActivity : AppCompatActivity() {
     lateinit var totalAns:TextView
     lateinit var performance:TextView
     lateinit var output:LinearLayout
-
+//
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
