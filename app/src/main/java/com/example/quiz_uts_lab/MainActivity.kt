@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
-
+//
         start=findViewById(R.id.start)
         start.setOnClickListener {
             var intent= Intent(this,StartActivity::class.java)

@@ -59,7 +59,7 @@ class StartActivity : AppCompatActivity() {
         questionsList.add(QuestionModel("Perwakilan negara bagian di negara Amerika Serikat dipegang oleh ...","House of Commons","House of Lords","Senat","House of Representative","Senat"))
         questionsList.add(QuestionModel("Contoh negara dengan bentuk pemerintahan Republik Parlementer adalah ...","Belanda","Prancis","Inggris","Amerika","Prancis"))
 
-
+//
         //questionsList.shuffle()
         questionModel= questionsList[index]
 
